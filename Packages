@@ -1,0 +1,30 @@
+Package: com.elletricity.arketyp
+Version: 1.2-9
+Section: Themes
+Maintainer: Gabrielle Wee <ios@gabriellew.ee>
+Depends: firmware (>= 7), Winterboard
+Architecture: iphoneos-arm
+Filename: debs//com.elletricity.arketyp_1.2-9_iphoneos-arm.deb
+Size: 955282
+MD5sum: d743b6c14d3014fcc87c137972d917fe
+Description: Arketyp for iPhone, clean and minimal.
+name: Arketyp
+depiction: http://repo.elletricity.com/packages/arketyp/
+homepage: http://repo.elletricity.com/packages/arketyp/
+author: Gabrielle Wee (elletricity) <ios@gabriellew.ee>
+
+Package: com.elletricity.jingshen
+Version: 1.1-2
+Section: SBHTML
+Maintainer: Gabrielle Wee <ios@gabriellew.ee>
+Depends: firmware (>= 7), com.groovycarrot.sbhtml
+Architecture: iphoneos-arm
+Filename: debs//com.elletricity.jingshen_1.1-2_iphoneos-arm.deb
+Size: 60882
+MD5sum: 9e1a945edee0c92879b9182f7c4eaf29
+Description: Basic weather and time widget for SBHTML.
+name: JINGSHEN
+depiction: http://repo.elletricity.com/packages/jingshen/
+homepage: http://repo.elletricity.com/packages/jingshen/
+author: Gabrielle Wee (elletricity) <ios@gabriellew.ee>
+

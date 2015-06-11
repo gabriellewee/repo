@@ -1,0 +1,8 @@
+Origin: Elletricity’s Repository
+Label: Elletricity
+Suite: stable
+Version: 1.0
+Codename: elletricitysrepository
+Architectures: iphoneos-arm
+Components: main
+Description: Themes and widgets for iOS

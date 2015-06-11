@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Help fix Arketyp for iOS 8!</title>
+	<link rel="stylesheet" href="/jquery.mobile.structure-1.4.3.min.css" />
+	<link rel="stylesheet" href="/desaturate.min.css" />
+	<link rel="stylesheet" href="/jquery.mobile.icons.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="content">
+			<h3 class="ui-bar ui-bar-a logo-title">ELLETRICITY.COM</h3>
+			<ul data-role="listview" data-inset="false" class="ui-listview ui-listview-inset">
+				<li data-role="list-divider" data-theme="c" data-form="ui-bar-a" role="heading" class="ui-li-divider ui-bar-a ui-first-child">Help fix Arketyp for iOS 8!</li>
+				<li data-form="ui-body-a" class="ui-li-static ui-body-a no-ellipsis">
+					<p>I missed the window to update to iOS 8 and so I don't have a lot of the most updated apps. If you could hep me out, I'll love you forever!</p>
+					<p>This may take quite a bit of time, so if you do this for me, I will include you in the beta of my next theme.</p>
+					<ol class="spaced-list">
+						<li>Open iFile and navigation to /var/mobile/Documents. Tap Edit in the top right corner, then + in the bottom left. Add a new directory called "plists", then tap Create in the top right corner, then Done.</li>
+						<li>Tap the new window icon in the bottom right corner, then the +, and choose Local Directory. Navigate to /var/mobile/Containers/Bundle/Application. If all you see are folders with seemingly random numbers and letters, tap the settings icon in the bottom left corner. Tap on File Manager and turn on the switch for Application Names, then tap Done.</li>
+						<li>Now each folder should have a name. Tap the first app folder you see that isn't working properly with the theme, then tap the folder that ends in ".app". Scroll down and look for "info.plist". Once you find it, tap Edit, tap on "info.plist" to select it, tap the clipboard icon in the bottom right corner, and copy the file. Tap Done.</li>
+						<li>Tap the new window icon again and select the other window. Tap the "plists" folder and paste the file in there. You will need to copy the info.plist file for each app that isn't theming properly by repeating the above steps. Because they're all named the same thing, just select Rename when it prompts you.</li>
+						<li>Once you're finished with app store apps, navigate to /var/stash/_.XXXXXX/Applications (the XXXXXX are unique to your device) and copy the info.plist files for each of the system and Cydia apps that aren't themed.</li>
+						<li>When you have all the info.plist files, tap Edit and then select the plists folder. Click the zip folder icon (second from bottom left, it looks like a box with a down arrow) and create the zip file. Then select the zip file and tap the email icon and email it to me at ios@gabriellew.ee.</li>
+					</ol>
+				</li>
+			</ul>
+			<div id="ui-body-test" class="ui-body ui-body-a">
+			    <p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			    <!-- Sitewide Responsive -->
+			    <ins class="adsbygoogle"
+			         style="display:block"
+			         data-ad-client="ca-pub-9501365674116215"
+			         data-ad-slot="5828465353"
+			         data-ad-format="auto"></ins>
+			    <script>
+			    (adsbygoogle = window.adsbygoogle || []).push({});
+			    </script></p>
+			</div>
+			<ul data-role="listview" data-inset="false" class="ui-listview ui-listview-inset">
+				<li class="ui-first-child ui-last-child"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LRYR264DDBZUS" data-ajax="false" target="_blank" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Donate using PayPal</a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="http://repo.elletricity.com/scripts.js"></script>
+</body>
+</html>
